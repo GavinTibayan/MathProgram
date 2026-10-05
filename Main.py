@@ -13,6 +13,16 @@ while SN:
 Op = int(input("What operation do you want?:\n1 - Addition\n2 - Subtraction\n3 - Multiplication\n4 - Division\n\t"))
 while Op != range(1,4):
     Op = int(input("That is not a valid number, please type in another number.:\t"))
-    
+if Op == 1:
+    Op1 = ()
+if Op == 2:
+    Op1 = ()
+if Op == 3:
+    Op1 = ()
+if Op == 4:
+    Op1 = ()
 x = random.randint(SN,LN)
 y = random.randint(SN,LN)
+
+while HWQ > 0:
+    int(input())
